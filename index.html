@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trắc Nghiệm Kiến Thức</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <h2>Câu 1: Thủ đô của Việt Nam là gì?</h2>
+                <label><input type="radio" name="q1" value="Hà Nội"> Hà Nội</label><br>
+                <label><input type="radio" name="q1" value="TP. Hồ Chí Minh"> TP. Hồ Chí Minh</label><br>
+                <label><input type="radio" name="q1" value="Đà Nẵng"> Đà Nẵng</label><br>
+            </div>
+            <div class="question">
+                <h2>Câu 2: Ai là tác giả của "Truyện Kiều"?</h2>
+                <label><input type="radio" name="q2" value="Nguyễn Du"> Nguyễn Du</label><br>
+                <label><input type="radio" name="q2" value="Tố Hữu"> Tố Hữu</label><br>
+                <label><input type="radio" name="q2" value="Nam Cao"> Nam Cao</label><br>
+            </div>
+            <button type="button" onclick="submitQuiz()">Nộp Bài</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
